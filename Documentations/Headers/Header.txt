@@ -1,0 +1,6 @@
+Headers = [
+  {
+    name: "header_left_(with_info)",
+    prefix: "hlwi",
+  },
+];
