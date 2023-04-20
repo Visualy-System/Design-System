@@ -31,6 +31,13 @@
     overflow: hidden;
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px); }
+    .check_carousel .owl-carousel .owl-stage-outer {
+      position: relative;
+      overflow: hidden;
+      padding: 0px 25px ;
+      box-sizing: border-box;
+      /* fix for flashing background */
+      -webkit-transform: translate3d(0px, 0px, 0px); }
   .owl-carousel .owl-wrapper,
   .owl-carousel .owl-item {
     -webkit-backface-visibility: hidden;
@@ -184,3 +191,8 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+  @media(max-width: 768px){
+    .check_carousel .owl-carousel .owl-stage-outer {
+      padding: 0;
+    }
+  }

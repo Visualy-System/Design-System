@@ -99,6 +99,11 @@ p {
     margin-bottom: 10px;
 }
 
+/*Carossel*/
+.owl-carousel.owl-theme.simple_card {
+    margin-top: 25px;
+}
+
 /*-------------------------------------------------------*/
 
 /*Common assets*/
@@ -261,6 +266,7 @@ p {
     border: none;
     background-color: var(--cinza-500);
     color: white;
+    font-size: 16px;
     outline: none;
     cursor: pointer;
 }
@@ -269,31 +275,6 @@ p {
 }
 
 /*-------------------------------------------------------*/
-
-/*Banner_alinhado_esquerda*/
-.design_banner_left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 60%;
-    background-color: var(--cinza-400);
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.design_banner_left .content-limitator {
-    display: flex;
-    align-items: center;
-    width: 1180px;
-    max-width: 90%;
-    height: 100%;
-}
-.design_banner_left .content-limitator h1 {
-    width: 70%;
-    text-align: left;
-}
 
 /*Banner left*/
 .banner_left{
@@ -381,6 +362,56 @@ p {
     width: 70%;
     text-align: center;
 }
+
+/*Mini Banners*/
+/*----------------*/
+/*Mini Banner default*/
+.mini_banner_default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 175px;
+    max-height: 100%;
+    background-color: var(--cinza-400);
+}
+.mini_banner_default .mini_banner_default_limitator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    max-width: 90%;
+    height: 100%;
+}
+.mini_banner_default .mini_banner_default_limitator .mini_banner_default_image {
+    width: 440px;
+    max-height: 100%;
+}
+.mini_banner_default .mini_banner_default_limitator .mini_banner_default_image img {
+    width: 100%;
+    height: 175px;
+    max-height: 100%;
+    object-fit: cover;
+}
+.mini_banner_default .mini_banner_default_limitator .texts {
+    display: flex;
+    flex-direction: column;
+}
+.mini_banner_default .mini_banner_default_limitator .texts .row {
+    display: flex;
+    color: white;
+    margin-top: 15px;
+}
+.mini_banner_default .mini_banner_default_limitator .texts h1 {
+    margin-bottom: 0;
+    margin: 0;
+    font-weight: 800;
+}
+.mini_banner_default .mini_banner_default_limitator .texts .row p{
+    margin-left: 10px;
+    color: white;
+}
+
 
 /*-------------------------------------------------------*/
 
@@ -523,7 +554,9 @@ p {
     align-items: center;
     width: 100%;
     margin-top: 32px;
-    overflow-x: auto;
+}
+.card_carrosel_check .card_carrosel_check_limitator .check_carousel {
+    width: 100%;
 }
 
 /*Carrosel card simple*/
@@ -602,13 +635,9 @@ p {
     margin: 0;
     margin-top: 5px;
 }
-.image_carrosel_left .image_carrosel_left_limitator .image_carrosel_left_list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.image_carrosel_left .image_carrosel_left_limitator .image_carrosel_left_owl {
     width: 100%;
     margin-top: 45px;
-    overflow-x: auto;
 }
 
 
@@ -667,7 +696,9 @@ p {
 
 /*-------------------------------------------------------*/
 
-/*Contact*/
+/*Contact_Sessions*/
+/*-------------------
+/*Contact_session_default*/
 .contact_session_default {
     display: flex;
     justify-content: center;
@@ -759,8 +790,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 280px;
-    max-width: 280px;
+    width: 100%;
     height: 180px;
     padding: 20px;
     box-sizing: border-box;
@@ -789,8 +819,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-width: 370px;
-    max-width: 370px;
+    width: 100%;
     height: 615px;
     position: relative;
 }
@@ -939,7 +968,7 @@ p {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 380px;
+    width: 100%;
     min-width: 380px;
     max-width: 100%;
     height: 430px;
@@ -989,17 +1018,35 @@ p {
 
 /*Break points*/
 @media(max-width: 1366px) {
+
+    /*Texto mais imagem*/
+    /*-------------------
+    /*Texto mais imagem full size*/
     .text_image_fullsize  .text_image_right {
         justify-content: center;
     }
     .text_image_fullsize  .text_image_right .text_image_content .text_image_block {
         width: 100%;
     }
+
+    /*----------------------------------------------------------------------------------*/
 }
 
 /*-------------------------------------------------------*/
 
 @media(max-width: 992px) {
+
+    /*Banners*/
+    /*-------------------
+    /*Mini Banners*/
+    .mini_banner_default .mini_banner_default_limitator .mini_banner_default_image {
+        display: none;
+    }
+
+
+    /*Texto mais imagem*/
+    /*-------------------
+    /*Texto mais imagem default(1 , 2 ou 3 imagens)*/
     .text_image .text_image_limitation {
         flex-direction: column;
         justify-content: flex-start;
@@ -1031,11 +1078,23 @@ p {
     .text_image_fullsize .text_image_right .text_image_content {
         width: 90%;
     }
+
+    /*-------------------------------------------------------*/
+
+    /*Big Numbers*/
+    /*-------------------
+    /*Big numbers simples com numeros de fundo*/
     .big_number_vertical .big_number_vertical_limitator .big_number_vertical_item {
         width: 50%;
         justify-content: center;
         margin-bottom: 35px;
     }
+
+    /*-------------------------------------------------------*/
+
+    /*Carrosel*/
+    /*-------------------
+    /*Carrosel de imagens e informações(geralmente ultilizado para blog)*/
     .image_carrosel_left .image_carrosel_left_title {
         display: flex;
         width: 100%;
@@ -1075,11 +1134,63 @@ p {
     .contact_session_default_form .contact_form {
         width: 100%;
     }
+    .card_simple {
+        width: 100%;
+    }
     .card_blog_absolute {
         margin-right: 15px;
     }
 }
 @media(max-width: 768px) {
+
+    /*Texts*/
+    .heading_1 {
+        font-size: 86px;
+        font-weight: 900;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .heading_2 {
+        font-size:50px;
+        font-weight: 900;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .heading_3 {
+        font-size: 42px;
+        font-weight: 800;
+        margin: 0;
+        line-height: 46px;
+        margin-bottom: 10px;
+    }
+    .heading_4 {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .subtitle_1 {
+        font-size: 30px;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .subtitle_2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .subtitle_3 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    /*-------------------------------------------------------*/
+
     .contact_form {
         height: auto;
         border-radius: 0px;
@@ -1124,6 +1235,9 @@ p {
     }
     .big_number_vertical .big_number_vertical_limitator .big_number_vertical_item h1 {
         display: none;
+    }
+    .card_simple {
+        width: 100%;
     }
 }
 @media (max-width: 576px) {
