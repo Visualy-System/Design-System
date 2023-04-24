@@ -1,0 +1,25 @@
+{
+	"mini_banner_default": {
+		"scope": "html,html_5",
+		"prefix": "!mbd",
+		"body": [
+		"<section class=\"mini_banner_default\">",
+			"\t<div class=\"mini_banner_default_limitator\">",
+			  "\t\t<div class=\"texts\">",
+				  "\t\t\t<h1 class=\"subtitle_1\">${Text: Teste teste}</h1>",
+				  "\t\t\t<div class=\"row\">",
+					  "\t\t\t\t<svg width=\"20\" height=\"17\" viewBox=\"0 0 20 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+						  "\t\t\t\t\t<path d=\"M8.0001 16V11H12.0001V16C12.0001 16.55 12.4501 17 13.0001 17H16.0001C16.5501 17 17.0001 16.55 17.0001 16V9H18.7001C19.1601 9 19.3801 8.43 19.0301 8.13L10.6701 0.600001C10.2901 0.260001 9.7101 0.260001 9.3301 0.600001L0.970098 8.13C0.630098 8.43 0.840098 9 1.3001 9H3.0001V16C3.0001 16.55 3.4501 17 4.0001 17H7.0001C7.5501 17 8.0001 16.55 8.0001 16Z\" fill=\"white\"/>",
+					  "\t\t\t\t</svg>",
+					  "\t\t\t\t<p class=\"body\">Home / Página</p>",
+				  "\t\t\t</div>",
+			  "\t\t</div>",
+			  "\t\t<div class=\"mini_banner_default_image\">",
+				  "\t\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" />",
+			  "\t\t</div>",
+			"\t</div>",
+		"</section>"
+		],
+		"description": "Mini banner padrão para ser colocado no topo das páginas internas"
+	}
+}

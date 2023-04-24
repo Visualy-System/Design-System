@@ -1,0 +1,25 @@
+{
+	"text_image_fullsize": {
+		"scope": "html,html_5",
+		"prefix": "!tif",
+		"body": [
+		"<section class=\"text_image_fullsize\">",
+			"\t<div class=\"text_image_left\">",
+				"\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" />",
+			"\t</div>",
+			"\t<div class=\"text_image_right\">",
+				"\t\t<div class=\"text_image_content\">",
+					"\t\t\t<div class=\"text_image_block\">",
+						"\t\t\t\t<h2 class=\"little\">${PreTitle: PRÉ TITULO}</h2>",
+						"\t\t\t\t<h1 class=\"heading_3\">${Title: Titulo principal com no máximo duas linhas}</h1>",
+						"\t\t\t\t<div class=\"vertical-line\"></div>",
+						"\t\t\t\t<p class=\"body\">${$Text: Os paineis montados pela ELEPIRA ENGENHARIA E SERVIÇOS atende as principais normas vigentes do mercado de quadros elétricos, tais como as características T TA (Type Tested Assembly) e PTTA (Parcially Type-Tested Assembly) da norma NBR IEC 60439-1.}</p>",
+						"\t\t\t\t<a class=\"button\">Clique aqui</a>",
+					"\t\t\t</div>",
+				"\t\t</div>",
+			"\t</div>",
+		"</section>",
+		],
+		"description": "Sessão com imagem e texto em ocupando 100% da tela."
+	}
+}

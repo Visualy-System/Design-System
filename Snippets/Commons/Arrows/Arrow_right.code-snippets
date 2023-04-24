@@ -1,0 +1,12 @@
+{
+	"arrow_right": {
+		"scope": "html,html_5",
+		"prefix": "!ar",
+		"body": [
+		"<div class=\"arrow-right\">",
+			"\t<div class=\"arrow\"></div>",
+		"</div>",
+		],
+		"description": "Seta apontando para a direira.."
+	}
+}

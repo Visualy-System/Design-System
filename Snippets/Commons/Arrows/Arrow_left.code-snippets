@@ -1,0 +1,12 @@
+{
+	"arrow_left": {
+		"scope": "html,html_5",
+		"prefix": "!af",
+		"body": [
+		"<div class=\"arrow-left\">",
+			"\t<div class=\"arrow\"></div>",
+		"</div>",
+		],
+		"description": "Seta apontando para a esquerda."
+	}
+}

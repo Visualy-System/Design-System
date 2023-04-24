@@ -1,0 +1,33 @@
+{
+	"big_numbers_vertical": {
+		"scope": "html,html_5",
+		"prefix": "!bnv",
+		"body": [
+		"<section class=\"big_number_vertical\">",
+			"\t<div class=\"big_number_vertical_limitator\">",
+				"\t\t<div class=\"big_number_vertical_item\">",
+					"\t\t\t<h1 class=\"heading_1\">2K</h1>",
+					"\t\t\t<h2 class=\"heading_2\">2K</h2>",
+					"\t\t\t<p class=\"body\">De serviços realizados</p>",
+				"\t\t</div>",
+				"\t\t<div class=\"big_number_vertical_item\">",
+					"\t\t\t<h1 class=\"heading_1\">2K</h1>",
+					"\t\t\t<h2 class=\"heading_2\">2K</h2>",
+					"\t\t\t<p class=\"body\">De serviços realizados</p>",
+				"\t\t</div>",
+				"\t\t<div class=\"big_number_vertical_item\">",
+					"\t\t\t<h1 class=\"heading_1\">2K</h1>",
+					"\t\t\t<h2 class=\"heading_2\">2K</h2>",
+					"\t\t\t<p class=\"body\">De serviços realizados</p>",
+				"\t\t</div>",
+				"\t\t<div class=\"big_number_vertical_item\">",
+					"\t\t\t<h1 class=\"heading_1\">2K</h1>",
+					"\t\t\t<h2 class=\"heading_2\">2K</h2>",
+					"\t\t\t<p class=\"body\">De serviços realizados</p>",
+				"\t\t</div>",
+			"\t</div>",
+		"</section>"
+		],
+		"description": "Big numbers na vertical com texto de baixa opacidade ao fundo."
+	}
+}

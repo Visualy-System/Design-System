@@ -1,0 +1,15 @@
+{
+	"input_default": {
+		"scope": "html,html_5",
+		"prefix": "!id",
+		"body": [
+		"<div class=\"default_input\">",
+			"\t<p class=\"little\">${Input: input name}</p>",
+			"\t<div class=\"default_input_container\">",
+				"\t\t<input type=\"text\" placeholder=\"${Placeholder: Placeholder}\" />",
+			"\t</div>",
+		"</div>",
+		],
+		"description": "Input de formato text com estilização padrão."
+	}
+}
