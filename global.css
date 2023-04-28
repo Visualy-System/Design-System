@@ -203,6 +203,7 @@ textarea {
 }
 
 /*Buttons*/
+/*Default_button*/
 .button {
     display: flex;
     align-items: center;
@@ -230,6 +231,25 @@ textarea {
     font-weight: 600;
     cursor: pointer;
 }
+/*WhatsAppButton*/
+.whatsapp_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    width: 200px;
+    padding: 10px 25px;
+    background-color: #25D366;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px -4px rgba(37, 211, 102, 0.25);
+    color: white;
+    font-weight: 600;
+}
+.whatsapp_button:hover {
+    background-color: #23c75f;
+}
+
+
 /*Inputs*/
 .default_input {
     display: flex;
@@ -593,6 +613,51 @@ textarea {
     color: white;
 }
 
+/*Mini_banner_with_path*/
+.mini_banner_with_path {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.mini_banner_with_path .title_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 130px;
+    background-color: var(--cinza-800);
+}
+.mini_banner_with_path .title_part .title_part_limitator {
+    display: flex;
+    width: 1180px;
+    max-width: 90%;
+    color: white;
+}
+.mini_banner_with_path .path_part {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    border-bottom: 1px solid var(--cinza-200);
+}
+.mini_banner_with_path .path_part .path_part_limitator {
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    width: 1180px;
+    max-width: 90%;
+    height: 48px;
+}
+.mini_banner_with_path .path_part .path_part_limitator p {
+    margin: 0;
+    color: var(--cinza-700);
+    font-weight: 600;
+}
+.mini_banner_with_path .path_part .path_part_limitator path {
+    fill: var(--cinza-700);
+}
+
 
 /*-------------------------------------------------------*/
 
@@ -664,6 +729,70 @@ textarea {
     object-fit: cover;
 }
 
+/*Texto com image com texto em um bloco*/
+.text_image_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 64px 0px;
+}
+.text_image_block .text_image_block_limitator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1180px;
+    max-width: 90%;
+}
+.text_image_block .text_image_block_limitator .left_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    grid-gap: 40px;
+    width: 50%;
+    padding: 75px 35px;
+    margin: 75px 0px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px rgba(112, 144, 176, 0.25);
+    z-index: 2;
+    overflow: hidden;
+}
+.text_image_block .text_image_block_limitator .left_content .content_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    grid-gap: 40px;
+    width: 100%;
+    z-index: 2;
+}
+.text_image_block .text_image_block_limitator .left_content img {
+    position: absolute;
+    width: 390px;
+    height: 340px;
+    bottom: -40%;
+    right: -40%;
+    z-index: 1;
+}
+.text_image_block .text_image_block_limitator .right_content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 555px;
+    max-width: 60%;
+    height: 630px;
+    z-index: 1;
+}
+.text_image_block .text_image_block_limitator .right_content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /*Texto e imagem ocupando a tela inteira*/
 .text_image_fullsize {
     display: flex;
@@ -699,6 +828,7 @@ textarea {
 .text_image_fullsize .text_image_right .text_image_content .text_image_block {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 60%;
     color: white;
 }
@@ -786,6 +916,79 @@ textarea {
 .carrosel_titles {
     display: flex;
     flex-direction: column;
+}
+
+/*Five_carousel_with_arrow*/
+.five_carousel_with_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.five_carousel_with_arrow .owl-stage {
+    display: flex;
+    justify-content: center;
+}
+.five_carousel_with_arrow .owl-stage-outer {
+    width: 100%;
+}
+.five_carousel_with_arrow .owl-carousel .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.five_carousel_with_arrow .owl-carousel .owl-nav .owl-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -8%;
+    bottom: 45px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid var(--cinza-700);
+    background-color: white;
+}
+.five_carousel_with_arrow .owl-carousel .owl-nav .owl-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -8%;
+    bottom: 45px;
+    width: 55px;
+    height: 55px;
+    border: 1px solid var(--cinza-700);
+    background-color: white;
+}
+
+/*Three_carousel_with_arrow*/
+.three_carousel_with_arrow  .owl-carousel .owl-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.three_carousel_with_arrow  .owl-carousel .owl-nav .owl-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    bottom: 410px;
+    border: 1px solid var(--cinza-700);
+}
+.three_carousel_with_arrow  .owl-carousel .owl-nav .owl-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    bottom: 410px;
+    right: 70px;
+    border: 1px solid var(--cinza-700);
 }
 
 /*Carrosel card check*/
@@ -924,6 +1127,62 @@ textarea {
 .image_carrosel_left .image_carrosel_left_limitator .image_carrosel_left_owl {
     width: 100%;
     margin-top: 45px;
+}
+
+/*Clients Carousel*/
+.client_carousel_simple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 64px 0px;
+}
+.client_carousel_simple .client_carousel_simple_limitator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1180px;
+    max-width: 90%;
+}
+.client_carousel_simple .client_carousel_simple_limitator .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.client_carousel_simple .client_carousel_simple_limitator .title  h1 {
+    text-align: center;
+}
+.client_carousel_simple .client_carousel_simple_limitator .container_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+}
+.client_carousel_simple .client_carousel_simple_limitator .carousel_limitator {
+    width: 85%;
+}
+.client_carousel_simple .client_carousel_simple_limitator .container_logo img {
+    width: 70%;
+}
+
+/*Image_carousel_full*/
+.image_carousel_full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 64px 0px;
+}
+.image_carousel_full .image_carousel_full_limitator {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    max-width: 90%;
+}
+.image_carousel_full .image_carousel_full_limitator .title {
+    margin-bottom: 35px;
 }
 
 
@@ -1319,6 +1578,64 @@ textarea {
     width: 50%;
 }
 
+/*Contact_session_with_infobar*/
+.contact_session_with_infobar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 64px 0px;
+}
+.contact_session_with_infobar .contact_session_with_infobar_limitator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    max-width: 90%;
+}
+.contact_session_with_infobar .contact_session_with_infobar_limitator .infobar {
+    width: 35%;
+    height: 100%;
+    background-color: var(--cinza-800);
+    color: white;
+}
+.contact_session_with_infobar .contact_session_with_infobar_limitator .infobar .title {
+    width: 100%;
+    padding: 35px 45px;
+    box-sizing: border-box;
+}
+.contact_session_with_infobar .contact_session_with_infobar_limitator .infobar .title h2 {
+    margin: 0;
+    font-weight: 600;
+}
+.contact_session_with_infobar .contact_session_with_infobar_limitator .infobar .content_info {
+    padding: 35px 45px;
+    box-sizing: border-box;
+}
+.contact_session_with_infobar 
+.contact_session_with_infobar_limitator 
+.infobar .content_info 
+.container_content_info {
+    margin-bottom: 50px;
+}
+.contact_session_with_infobar 
+.contact_session_with_infobar_limitator 
+.infobar .content_info 
+.container_content_info h3 {
+    font-weight: 600;
+}
+.contact_session_with_infobar 
+.contact_session_with_infobar_limitator 
+.infobar .content_info 
+.container_content_info p {
+    margin-bottom: 2px;
+}
+.contact_session_with_infobar .contact_session_with_infobar_limitator .contact_form {
+    width: 65%;
+    height: auto;
+    border-radius: 0;
+}
+
 /*-------------------------------------------------------*/
 
 /*Card simples*/
@@ -1660,6 +1977,34 @@ textarea {
     background-repeat: no-repeat;
 }
 
+/*Card_service_separate*/
+.card_service_separate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    height: 370px;
+}
+.card_service_separate img {
+    width: 100%;
+    height: 82%;
+    background-color: #0A0925;
+    object-fit: cover;
+}
+.card_service_separate .card_service_separate_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 5px;
+
+    background-color: #0AAF42;
+    color: white;
+}
+.card_service_separate .card_service_separate_info p {
+    margin: 0;
+    max-width: 80%;
+}
+
 /*-------------------------------------------------------*/
 
 /*Blogs*/
@@ -1940,6 +2285,22 @@ textarea {
     .text_image_fullsize .text_image_right .text_image_content {
         width: 90%;
     }
+    /*Text_image_block*/
+    .text_image_block .text_image_block_limitator {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .text_image_block .text_image_block_limitator .left_content {
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+    }
+    .text_image_block .text_image_block_limitator .right_content {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        height: 315px;
+    }
 
     /*-------------------------------------------------------*/
 
@@ -2090,11 +2451,26 @@ textarea {
     .contact_session_vertical_form {
         width: 100%;
     }
-    .contact_session_vertical 
-    .contact_session_vertical_limitator 
-    .contact_session_vertical_content 
-    .contact_info 
-    .text
+
+    /*Contact_session_with_infobar*/
+    .contact_session_with_infobar .contact_session_with_infobar_limitator {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .contact_session_with_infobar .contact_session_with_infobar_limitator .infobar {
+        width: 100%;
+    }
+    .contact_session_with_infobar .contact_session_with_infobar_limitator .infobar .title {
+        padding: 20px 30px;
+        max-width: 90%;
+    }
+    .contact_session_with_infobar .contact_session_with_infobar_limitator .infobar .content_info {
+        padding: 20px 30px;
+        max-width: 90%;
+    }
+    .contact_session_with_infobar .contact_session_with_infobar_limitator .contact_form {
+        width: 100%;
+    }
 
     /*-------------------------------------------------------*/
 
@@ -2187,6 +2563,27 @@ textarea {
         font-weight: 500;
         margin: 0;
         margin-bottom: 10px;
+    }
+
+    /*-------------------------------------------------------*/
+
+    /*Carousel Defaults*/
+    /*----------------------------------*/
+    /*Carousel_services*/
+    .three_carousel_with_arrow  .owl-carousel .owl-nav {
+        justify-content: flex-end;
+        grid-gap: 15px;
+        margin-top: 20px;
+    }
+    .three_carousel_with_arrow  .owl-carousel .owl-nav .owl-next  {
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+    .three_carousel_with_arrow  .owl-carousel .owl-nav .owl-prev  {
+        position: relative;
+        bottom: 0;
+        right: 0;
     }
 
     /*-------------------------------------------------------*/
@@ -2315,12 +2712,19 @@ textarea {
 }
 
 @media (max-width: 576px) {
+
+
     /*card_article_news*/
     .card_articles_news {
         width: 100%;
     }
     /*card_instagram*/
     .card_instagram {
+        width: 100%;
+    }
+
+    /*Card_service_separate*/
+    .card_service_separate {
         width: 100%;
     }
 

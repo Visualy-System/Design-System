@@ -1,0 +1,12 @@
+{
+	"card_blog_fullimage": {
+		"scope": "html,html_5",
+		"prefix": "!cbf",
+		"body": [
+		"<a href=\"\" class=\"card_blog_fullimage\"  style=\"background-image: url('https://visualy.com.br/design-system/img/placeholder-1000x1000.png');\">",
+        	"\t<h3>${Text: Texto com no máximo duas linhas(2 Linhas)}</h3>",
+    	"</a>"
+		],
+		"description": "Card com imagem ocupando ele inteiro."
+	}
+}

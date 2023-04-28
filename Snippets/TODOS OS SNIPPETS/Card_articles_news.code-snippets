@@ -1,0 +1,22 @@
+{
+	"card_articles_news": {
+		"scope": "html,html_5",
+		"prefix": "!can",
+		"body": [
+		"<div class=\"card_articles_news\">",
+			"\t<div class=\"image_part\">",
+				"\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" />",
+				"\t\t<div class=\"tag_card\">",
+					"\t\t\t<p class=\"little\">${Tag: Tag-card}</p>",
+				"\t\t</div>",
+			"\t</div>",
+			"\t<div class=\"content_part\">",
+				"\t\t<h3 class=\"body\">${Title: Titulo com no máximo duas linhas.}</h3>",
+				"\t\t<p class=\"little\">${Date: 00/00/0000}</p>",
+				"\t\t<a href=\"\" class=\"button_outline\">Clique aqui</a>",
+			"\t</div>",
+		"</div>"
+		],
+		"description": "Card para conteúdo de artigos e notícias com data, image, titulo e Tag."
+	}
+}

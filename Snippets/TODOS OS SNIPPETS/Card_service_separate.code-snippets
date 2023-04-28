@@ -1,0 +1,20 @@
+{
+	"card_service_separate": {
+		"scope": "html,html_5",
+		"prefix": "!css",
+		"body": [
+		"<div class=\"card_service_separate\">",
+			"\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" />",
+			"\t<a href=\"\" class=\"card_service_separate_info\">",
+				"\t\t<p class=\"subtitle_3\">${Title: Titulo com duas linhas}</p>",
+				"\t\t<div class=\"card_service_separate_arrow\">",
+					"\t\t\t<svg width=\"15\" height=\"12\" viewBox=\"0 0 15 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+						"\t\t\t\t<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.9974 6.83325L6.87434 10.3673L7.95899 11.6327L13.7923 6.63271L14.5305 6L13.7923 5.36729L7.95899 0.367286L6.87434 1.63271L10.9972 5.16659L0.75 5.16658V6.83325L10.9974 6.83325Z\" fill=\"white\"/>",
+					"\t\t\t</svg>",
+				"\t\t</div>",
+			"\t</a>",
+		"</div>",
+		],
+		"description": "Card com imagem e informação separada por uma margin."
+	}
+}

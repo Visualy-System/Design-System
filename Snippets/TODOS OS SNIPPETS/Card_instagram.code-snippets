@@ -1,0 +1,15 @@
+{
+	"banner_center": {
+		"scope": "html,html_5",
+		"prefix": "!dbc",
+		"body": [
+		"<section class=\"banner_center\" style=\"background-image: url('https://i0.wp.com/www.glamflame.net/wp-content/uploads/2020/01/Hero-Banner-Placeholder-Light-1024x480-1.png?fit=1024%2C480&ssl=1');\">",
+			"\t<div class=\"container-limitation-banner\">",
+				"\t\t<h1 class=\"heading_2\">${Title: Titulo banner - 2 Linhas}</h1>",
+				"\t\t<p class=\"body\">${Subtitle: subtitulo do banner com o maximo de - 2 Linhas}</p>",
+			"\t</div>",
+		"</section>",
+		],
+		"description": "Banner principal com texto ao centro"
+	}
+}

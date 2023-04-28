@@ -1,0 +1,24 @@
+{
+	"text_image_block": {
+		"scope": "html,html_5",
+		"prefix": "!tib",
+		"body": [
+		"<section class=\"text_image_block\">",
+			"\t<div class=\"text_image_block_limitator\">",
+				"\t\t<div class=\"left_content\">",
+					"\t\t\t<div class=\"content_text\">",
+						"\t\t\t\t<h1 class=\"heading_3\">${Title: Titulo principal}</h1>",
+						"\t\t\t\t<p class=\"body\">Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum ac, vestibulum eu nisl.</p>",
+						"\t\t\t\t<a href=\"\" class=\"button\">Clique aqui</a>",
+					"\t\t\t</div>",
+					"\t\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" alt=\"\" class=\"absolute_image\">",
+				"\t\t</div>",
+				"\t\t<div class=\"right_content\">",
+					"\t\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" alt=\"\">",
+				"\t\t</div>",
+			"\t</div>",
+		"</section>",
+		],
+		"description": "Texto e imagem com texto envolvido em uma caixa de box-shadow."
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"blog_full_image": {
+		"scope": "html,html_5",
+		"prefix": "!bfi",
+		"body": [
+		"<section class=\"blog_full_image\">",
+			"\t<div class=\"blog_full_image_limitator\">",
+				"\t\t<div class=\"title\">",
+					"\t\t\t<h1 class=\"heading_3\">${Title: Titulo com 1 linha}</h1>",
+					"\t\t\t<div class=\"vertical-line\"></div>",
+				"\t\t</div>",
+				"\t\t<div class=\"three_carousel\">",
+					"\t\t\t<div class=\"owl-carousel\">",
+						"\t\t\t\t<a href=\"\" class=\"card_blog_fullimage\"  style=\"background-image: url('https://visualy.com.br/design-system/img/placeholder-1000x1000.png');\">",
+							"\t\t\t\t\t<h3> Texto com no máximo duas linhas(2 Linhas)</h3>",
+						"\t\t\t\t</a>",
+						"\t\t\t\t<a href=\"\" class=\"card_blog_fullimage\"  style=\"background-image: url('https://visualy.com.br/design-system/img/placeholder-1000x1000.png');\">",
+							"\t\t\t\t\t<h3> Texto com no máximo duas linhas(2 Linhas)</h3>",
+						"\t\t\t\t</a>",
+						"\t\t\t\t<a href=\"\" class=\"card_blog_fullimage\"  style=\"background-image: url('https://visualy.com.br/design-system/img/placeholder-1000x1000.png');\">",
+							"\t\t\t\t\t<h3> Texto com no máximo duas linhas(2 Linhas)</h3>",
+						"\t\t\t\t</a>",
+					"\t\t\t</div>",
+				"\t\t</div>",
+				"\t\t<a href=\"\" class=\"button\">Clique aqui!</a>",
+			"\t</div>",
+		"</section>",
+		],
+		"description": "Blog de cards com imagem ocupando 100 x 100"
+	}
+}

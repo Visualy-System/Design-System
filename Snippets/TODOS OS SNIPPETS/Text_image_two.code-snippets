@@ -1,0 +1,21 @@
+{
+	"text_image_two": {
+		"scope": "html,html_5",
+		"prefix": "!tiw",
+		"body": [
+			"<section class=\"text_image\">",
+				"\t<div class=\"text_image_limitation\">",
+					"\t\t<div class=\"col-1\">",
+						"\t\t\t<h1 class=\"heading_3\">${Title: Titulo com no max}</h1>",
+						"\t\t\t<p class=\"body\">${Text: Lorem ipsum amanet comic sans strate}</p>",
+					"\t\t</div>",
+					"\t\t<div class=\"col_2_two\">",
+						"\t\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\"/>",
+						"\t\t\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\"/>",
+					"\t\t</div>",
+				"\t</div>",
+			"</section>",
+		],
+		"description": "Texto a esquerda imagem a direita com duas fotos."
+	}
+}

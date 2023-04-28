@@ -1,0 +1,20 @@
+{
+	"card_blog_absolute": {
+		"scope": "html,html_5",
+		"prefix": "!cba",
+		"body": [
+		"<div class=\"card_blog_absolute\">",
+			"\t<img src=\"https://visualy.com.br/design-system/img/placeholder-1000x1000.png\" />",
+			"\t<div class=\"card_blog_absolute_content\">",
+				"\t\t<p class=\"little\">00.00.0000</p>",
+				"\t\t<h2 class=\"body\">${Title: Forem ipsum dolor sit amet, consectetur adipiscing elit.}</h2>",
+				"\t\t<h3 class=\"little\">Aprofunde seu conhecimento sobre como realizamos as atividades logísticas e operacionais do nosso negócio.</h3>",
+				"\t\t<div class=\"card_blog_absolute_more\">",
+					"\t\t\t<p class=\"body\">Quero ler mais +</p>",
+				"\t\t</div>",
+			"\t</div>",
+		"</div>",
+		],
+		"description": "Card de blog com data titulo e texto com conteudo em posição absoluta"
+	}
+}

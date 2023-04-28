@@ -1,0 +1,11 @@
+{
+	"!empty": {
+		"prefix": "!empty",
+		"body": [
+			"<?php if(!empty($$variavel['$campo'])): ?>",
+			"\t<div class=\"$classe\"><?= $$variavel['$campo']; ?></div>",
+			"<?php endif; ?>"
+		],
+		"description": "PHP !empty"
+	},
+}
